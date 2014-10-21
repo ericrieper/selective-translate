@@ -1,0 +1,47 @@
+.valign-middle {
+    display: table;
+}
+
+.valign-middle .columns {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.valign-middle .columns,
+.valign-middle [class*="column"] + [class*="column"]:last-child {
+    float: none;
+}
+
+
+body {
+	background-color: #222;
+}
+
+body,p,h1,h2,h3,h4,h5 {
+	color: #ddd;
+}
+
+a {
+	webkit-transition:	all 100ms ease;
+	transition:			all 100ms ease;
+}
+
+
+.tab-bar {
+	box-shadow: 0 0 5px black;
+}
+.inner-wrap {
+	min-height: 100vh;
+}
+
+button i {
+font-size: 2rem;
+top: 0;
+left: 15px;
+position: absolute;
+margin-right: 2rem;
+line-height: 55px;
+}
+button {
+	padding-left: 3.2rem;
+}

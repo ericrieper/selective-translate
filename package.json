@@ -1,0 +1,14 @@
+{
+  "name": "Translate",
+  "version": "1.0.0",
+  "description": "Selective word translateion.",
+  "main": "index.js",
+  "dependencies": {
+  "express":"~4.9.7",
+  "express-handlebars":"~1.1",
+  "chalk":"~0.5.1"
+  },
+  "private": true,
+  "author": "Eric Rieper",
+  "homepage": "http://ericrieper.com"
+}
