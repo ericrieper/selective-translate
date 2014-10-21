@@ -1,8 +1,8 @@
-Streamy
+Selective Translate
 ===================
 
 
-Serve and play local video files in browser.
+Translate select words with frequency from a body of text.
 
 
 
@@ -11,8 +11,6 @@ Serve and play local video files in browser.
 Install via package.json with `npm install`
 
 ##Usage##
-
-Place `.mp4` video files in `/static/media`
 
 Start with `node index.js [portnumber]`
 Ex: `node index.js 37605`
